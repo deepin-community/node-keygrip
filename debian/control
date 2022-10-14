@@ -1,0 +1,25 @@
+Source: node-keygrip
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Andrew Kelley <superjoe30@gmail.com>
+Section: javascript
+Testsuite: autopkgtest-pkg-nodejs
+Priority: optional
+Build-Depends:
+ debhelper-compat (= 13)
+ , dh-sequence-nodejs
+ , mocha <!nocheck>
+Standards-Version: 4.6.0
+Vcs-Browser: https://salsa.debian.org/js-team/node-keygrip
+Vcs-Git: https://salsa.debian.org/js-team/node-keygrip.git
+Homepage: https://github.com/expressjs/keygrip
+Rules-Requires-Root: no
+
+Package: node-keygrip
+Architecture: all
+Depends: ${misc:Depends}
+Description: Key signing and verification for rotated credentials for Node.js
+ This module helps signing and verifying data through a rotating credential
+ system, in which new server keys can be added and old ones removed regularly,
+ without invalidating client credentials.
+ .
+ Node.js is an event-based server-side JavaScript engine.

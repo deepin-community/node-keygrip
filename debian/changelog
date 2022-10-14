@@ -1,0 +1,50 @@
+node-keygrip (1.1.0-2) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Set upstream metadata fields: Bug-Submit.
+
+  [ Yadd ]
+  * Bump debhelper from old 12 to 13.
+  * Update standards version to 4.6.0, no changes needed.
+  * Add ctype=nodejs to component(s)
+  * Modernize debian/watch
+    * Fix filenamemangle
+    * Fix GitHub tags regex
+  * Use dh-sequence-nodejs instead of pkg-js-tools
+  * Drop dependency to nodejs
+  * Mark test dependencies with <!nocheck>
+
+ -- Yadd <yadd@debian.org>  Sat, 13 Nov 2021 19:42:21 +0100
+
+node-keygrip (1.1.0-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Andrew Kelley ]
+  * fx dversionmangle
+
+  [ Xavier Guimard ]
+  * Bump debhelper compatibility level to 12
+  * Declare compliance with policy 4.4.1
+  * Change section to javascript
+  * Change priority to optional
+  * Add debian/gbp.conf
+  * Add upstream/metadata
+  * Update VCS fields to salsa
+  * New upstream version 1.1.0
+  * Switch test and install to pkg-js-tools
+  * Remove d/install
+  * Embed components: tsscmp
+  * New upstream version 1.1.0
+  * Add "Rules-Requires-Root
+  * Update debian/copyright
+
+ -- Xavier Guimard <yadd@debian.org>  Tue, 08 Oct 2019 20:21:41 +0200
+
+node-keygrip (1.0.1-1) unstable; urgency=low
+
+  * Initial release (Closes: #752915)
+
+ -- Andrew Kelley <superjoe30@gmail.com>  Sun, 06 Jul 2014 18:02:17 +0200
